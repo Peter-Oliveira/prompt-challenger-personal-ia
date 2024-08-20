@@ -12,7 +12,7 @@
 
 <p align="center">
   <h3 align="center">🏋️‍♂️ Assistente de Calistenia - Gerador de Treino Ideal em Praças Públicas</h3>
-Este projeto é um desafio de Prompt Engineering avançado, onde o objetivo é criar um prompt que gera um plano de treino de calistenia personalizado para ser realizado em praças públicas. O assistente considerará o biotipo corporal, disponibilidade de tempo, nível de condicionamento físico e equipamentos disponíveis em praças públicas para criar um programa de treino eficaz e adaptável.
+Este projeto é um desafio de Prompt Engineering avançado, onde o objetivo é criar um prompt que gera um plano de treino de calistenia personalizado para ser realizado em praças públicas. O assistente considerará o biotipo corporal, IMC, idade, gênero, disponibilidade de tempo, nível de condicionamento físico e equipamentos disponíveis em praças públicas para criar um programa de treino eficaz e adaptável.
 O projeto deve ser feito utilizando as boas práticas de prompt engineering.
 </p>
 
@@ -20,6 +20,8 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineering.
 
 - [📝 Introdução](#-introdução)
 - [💪 Biotipos Corporais](#-biotipos-corporais)
+- [📊 Índice de Massa Corporal (IMC)](#-índice-de-massa-corporal-imc)
+- [🎂 Idade e Gênero](#-idade-e-gênero)
 - [📅 Disponibilidade para Treino](#-disponibilidade-para-treino)
 - [🏋️ Níveis de Condicionamento](#️-níveis-de-condicionamento)
 - [🛠️ Equipamentos em Praças Públicas](#️-equipamentos-em-praças-públicas)
@@ -32,7 +34,7 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineering.
 
 ## 📝 Introdução
 
-Este projeto visa criar um assistente de calistenia automatizado que gera treinos personalizados para serem realizados em praças públicas. O usuário fornecerá informações sobre seu biotipo corporal, disponibilidade de tempo, nível de condicionamento físico e equipamentos disponíveis na praça pública de sua escolha. O assistente então criará um plano de treino ideal, considerando essas variáveis e as particularidades do treinamento ao ar livre.
+Este projeto visa criar um assistente de calistenia automatizado que gera treinos personalizados para serem realizados em praças públicas. O usuário fornecerá informações sobre seu biotipo corporal, IMC, idade, gênero, disponibilidade de tempo, nível de condicionamento físico e equipamentos disponíveis na praça pública de sua escolha. O assistente então criará um plano de treino ideal, considerando essas variáveis e as particularidades do treinamento ao ar livre.
 
 ## 💪 Biotipos Corporais
 
@@ -68,6 +70,21 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
 </table>
 
 > **Nota:** Escolha o biotipo que mais se aproxima do seu corpo atual para que o treino seja mais eficiente.
+
+## 📊 Índice de Massa Corporal (IMC)
+
+O IMC é uma métrica importante para determinar a intensidade e o tipo de exercício adequado. Ele é calculado dividindo o peso (em kg) pela altura (em metros) ao quadrado.
+
+| Categoria de IMC | Descrição                      |
+|------------------|--------------------------------|
+| Abaixo do peso   | IMC < 18,5                     |
+| Peso normal      | 18,5 ≤ IMC < 24,9              |
+| Sobrepeso        | 25 ≤ IMC < 29,9                |
+| Obesidade        | IMC ≥ 30                       |
+
+## 🎂 Idade e Gênero
+
+A idade e o gênero influenciam na escolha dos exercícios e na intensidade do treino. O assistente ajustará o plano de acordo com as faixas etárias e considerações de gênero.
 
 ## 📅 Disponibilidade para Treino
 
@@ -123,12 +140,14 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 ## 🛠️ Regras de Negócio
 
 1. Identifique seu biotipo corporal consultando a seção de biotipos.
-2. Determine quantos dias por semana você pode treinar e escolha o tipo de treino mais adequado.
-3. Identifique seu nível de condicionamento físico atual.
-4. Liste os equipamentos disponíveis na praça pública escolhida.
-5. Considere as condições climáticas típicas da sua região.
-6. Defina seu objetivo principal (ganho muscular, perda de gordura, etc.).
-7. Use o prompt do assistente para gerar um plano de treino personalizado.
+2. Calcule seu IMC e veja em qual categoria você se encaixa.
+3. Informe sua idade e gênero para ajustes personalizados.
+4. Determine quantos dias por semana você pode treinar e escolha o tipo de treino mais adequado.
+5. Identifique seu nível de condicionamento físico atual.
+6. Liste os equipamentos disponíveis na praça pública escolhida.
+7. Considere as condições climáticas típicas da sua região.
+8. Defina seu objetivo principal (ganho muscular, perda de gordura, etc.).
+9. Use o prompt do assistente para gerar um plano de treino personalizado.
 
 ## 📖 Material de Apoio
 
@@ -144,7 +163,7 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 
 Você é um Assistente de Calistenia especializado em criar planos de treino para serem realizados em praças públicas. Com base nas informações fornecidas pelo usuário, crie um plano de treino detalhado e personalizado seguindo estas diretrizes:
 
-1. Cumprimente o usuário e peça as informações necessárias (biotipo, disponibilidade, nível, equipamentos disponíveis, clima típico e objetivo).
+1. Cumprimente o usuário e peça as informações necessárias (biotipo, IMC, idade, gênero, disponibilidade, nível, equipamentos disponíveis, clima típico e objetivo).
 
 2. Analise as informações e crie um plano de treino semanal que inclua:
    - Aquecimento específico para o ambiente externo
