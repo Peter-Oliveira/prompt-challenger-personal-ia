@@ -1,4 +1,3 @@
-Entendo sua solicitação. Vou criar um modelo completo que incorpora todos os elementos relevantes do exemplo original, juntamente com as novas adições focadas em calistenia e treinamento em praças públicas. Aqui está o modelo completo:
 <p align="center">
     <img width="300px" src=".github/assets/logo_calistenia.png">
 </p>
