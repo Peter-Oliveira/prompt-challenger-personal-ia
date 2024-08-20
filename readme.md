@@ -10,10 +10,9 @@
 </a>
 </p>
 
-<p align="center">
+<p align="justify">
   <h3 align="center">🏋️‍♂️ Assistente de Calistenia - Gerador de Treino Ideal em Praças Públicas</h3>
-Este projeto é um desafio de Prompt Engineering avançado, onde o objetivo é criar um prompt que gera um plano de treino de calistenia personalizado para ser realizado em praças públicas. O assistente considerará o biotipo corporal, IMC, idade, gênero, disponibilidade de tempo, nível de condicionamento físico e equipamentos disponíveis em praças públicas para criar um programa de treino eficaz e adaptável.
-O projeto deve ser feito utilizando as boas práticas de prompt engineering.
+Este projeto é um desafio de Prompt Engineering avançado, onde o objetivo é criar um prompt que gera um plano de treino de calistenia personalizado para ser realizado em praças públicas. O assistente considerará o biotipo corporal, IMC, idade, gênero, disponibilidade de tempo, nível de condicionamento físico e equipamentos disponíveis em praças públicas para criar um programa de treino eficaz e adaptável. O projeto deve ser feito utilizando as boas práticas de prompt engineering.
 </p>
 
 ## 📋 Índice
@@ -34,11 +33,15 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineering.
 
 ## 📝 Introdução
 
+<p align="justify">
 Este projeto visa criar um assistente de calistenia automatizado que gera treinos personalizados para serem realizados em praças públicas. O usuário fornecerá informações sobre seu biotipo corporal, IMC, idade, gênero, disponibilidade de tempo, nível de condicionamento físico e equipamentos disponíveis na praça pública de sua escolha. O assistente então criará um plano de treino ideal, considerando essas variáveis e as particularidades do treinamento ao ar livre.
+</p>
 
 ## 💪 Biotipos Corporais
 
+<p align="justify">
 A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. Existem três biotipos principais:
+</p>
 
 <table>
   <tr>
@@ -69,11 +72,15 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
   </tr>
 </table>
 
+<p align="justify">
 > **Nota:** Escolha o biotipo que mais se aproxima do seu corpo atual para que o treino seja mais eficiente.
+</p>
 
 ## 📊 Índice de Massa Corporal (IMC)
 
+<p align="justify">
 O IMC é uma métrica importante para determinar a intensidade e o tipo de exercício adequado. Ele é calculado dividindo o peso (em kg) pela altura (em metros) ao quadrado.
+</p>
 
 | Categoria de IMC | Descrição                      |
 |------------------|--------------------------------|
@@ -84,11 +91,15 @@ O IMC é uma métrica importante para determinar a intensidade e o tipo de exerc
 
 ## 🎂 Idade e Gênero
 
+<p align="justify">
 A idade e o gênero influenciam na escolha dos exercícios e na intensidade do treino. O assistente ajustará o plano de acordo com as faixas etárias e considerações de gênero.
+</p>
 
 ## 📅 Disponibilidade para Treino
 
+<p align="justify">
 A segunda regra é determinar quantos dias por semana o usuário tem disponível para treinar. Dependendo do número de dias, o treino sugerido pode variar:
+</p>
 
 | **Imagem**                                                     | **Dias por Semana** | **Tipo de Treino Sugerido**                            |
 | -------------------------------------------------------------- | ------------------- | ------------------------------------------------------ |
@@ -123,6 +134,10 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 ## 🌡️ Adaptações Climáticas
 
+<p align="justify">
+As condições climáticas podem afetar o desempenho e segurança durante os treinos. Aqui estão algumas adaptações sugeridas:
+</p>
+
 | Clima           | Adaptações Sugeridas                                |
 |-----------------|-----------------------------------------------------|
 | Calor Intenso   | Treinos mais curtos, foco em hidratação             |
@@ -131,6 +146,10 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 ## 🥗 Dicas Nutricionais
 
+<p align="justify">
+A nutrição é um componente essencial para alcançar seus objetivos de fitness. Aqui estão algumas recomendações baseadas em diferentes objetivos:
+</p>
+
 | Objetivo        | Recomendações Nutricionais                          |
 |-----------------|-----------------------------------------------------|
 | Ganho Muscular  | Superávit calórico, foco em proteínas e carboidratos|
@@ -138,6 +157,10 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 | Manutenção      | Equilíbrio calórico, dieta balanceada               |
 
 ## 🛠️ Regras de Negócio
+
+<p align="justify">
+Para garantir que o plano de treino seja eficaz e seguro, siga estas etapas:
+</p>
 
 1. Identifique seu biotipo corporal consultando a seção de biotipos.
 2. Calcule seu IMC e veja em qual categoria você se encaixa.
@@ -151,7 +174,9 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 ## 📖 Material de Apoio
 
+<p align="justify">
 Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
+</p>
 
 - [Fundamentos de Engenharia de prompt](https://elidianaandrade.gitbook.io/fundamentos-de-engenharia-de-prompts-com-claude-3)
 - [Boas práticas de prompt](https://aline-antunes.gitbook.io/otimize-seus-prompts-e-aprenda-mais-usando-ias-1)
@@ -161,7 +186,9 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 
 ## 🎯 Prompt de Resposta Proposto
 
+<p align="justify">
 Você é um Assistente de Calistenia especializado em criar planos de treino para serem realizados em praças públicas. Com base nas informações fornecidas pelo usuário, crie um plano de treino detalhado e personalizado seguindo estas diretrizes:
+</p>
 
 1. Cumprimente o usuário e peça as informações necessárias (biotipo, IMC, idade, gênero, disponibilidade, nível, equipamentos disponíveis, clima típico e objetivo).
 
@@ -179,4 +206,6 @@ Você é um Assistente de Calistenia especializado em criar planos de treino par
 
 6. Conclua com palavras de encorajamento e ofereça-se para esclarecer dúvidas ou fazer ajustes no plano.
 
+<p align="justify">
 Lembre-se de manter um tom profissional, motivador e educativo, enfatizando a importância da consistência e da técnica correta na prática da calistenia.
+</p>
